@@ -27,5 +27,5 @@ echo -e "${YELLOW}----------------------------------------------${NC}"
 echo -e "Not: Eğer yukarıdaki IP çalışmazsa 'Ports' kısmındaki linki kullanın."
 echo -e "${YELLOW}----------------------------------------------${NC}"
 
-# Sunucuyu 16GB RAM ile başlat
-java -Xmx16G -Xms16G -jar server.jar --nogui
+# Sunucuyu 8GB RAM ile başlat
+java -Xmx8G -Xms8G -jar server.jar --nogui
